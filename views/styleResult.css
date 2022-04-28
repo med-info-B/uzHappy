@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: table-cell;
+    text-align: center;
+}
+
+
+
+body {
+    background-color:aqua;
+}
+
+p {
+    display: table-cell;
+    width: 10em;
+    text-align: center;
+    height: 5em;
+    border: 2px solid rgb(2, 2, 57);
+}
+
+.nim{
+    background-color: #4CAF50;
+}
+
+.buzz {
+    background-color: #607d8b;
+}
+
+
+.buzzNim{
+    background-color: #ff9800;
+}
+
+.numbr {
+    background-color: #f44336;
+
+}

@@ -1,0 +1,50 @@
+.titre1 {
+    color: #ED7D31;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    bottom: 26px;
+    left: 22px;
+}
+
+.titre2 {
+    color: #ED7D31;
+    position: relative;
+    bottom: 26px;
+    font-weight: lighter;
+    font-size: large;
+    left: 5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: table-cell;
+    text-align: center;
+}
+
+input {
+    border: 2px solid rgb(2, 2, 57);
+    border-radius: 4px;
+}
+#submit {
+    width: 8em;
+    height: 2em;
+    margin-top: 5%;
+}
+
+#in {
+    margin-left: 10%;
+    width: 10em;
+}
+
+
+img {
+    width: 80px;
+}
+
+form {
+    margin-left: 5%;
+}

@@ -1,0 +1,44 @@
+docttype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Result
+        style
+            include styleResult.css
+    body             
+                button(onclick="move()") home
+                script.
+                    function move() {
+                        window.location.href = '/views/home.html'
+                    }
+
+                each val, index in numbers
+                    if index != 0 && index % 8 == 0
+                        br 
+                    case val.text 
+                        when 'NIM'
+                            p.bang(class=['nim'])= val.text
+                        
+                        when 'Buzz'
+                            p.bang(class=['buzz'])= val.text
+                        
+                        when 'NIM buzz'
+                            p.bang(class=['buzz'])= val.text
+                        
+                        default 
+                            p.bang(class=['numbr'])= val.text
+                    
+
+
+                    
+                         
+
+            
+
+
+                        
+
+
+

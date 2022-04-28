@@ -1,0 +1,29 @@
+docttype 
+    html 
+        head 
+            title Buzz 
+            style
+                include style.css
+
+        body 
+            ul 
+                li 
+                    img(src="https://www.netinfosmedias.com/media/images/icones/logo-netinfosmedias-seul-tampon.png", alt="logo")
+                li 
+                    h1.bang(class=['titre1']) Le Test - NIM buzz 
+            h1.bang(class=['titre2'])  choisissez une suite de nombre entre 1 et 1000.
+            form(method="GET", action='handleForm', name='buzzForm')
+                table 
+                    tr 
+                        td  nombre de début 
+                        td 
+                            input#in(type="number", name="nbre1" min=1 max=1000 step=1)
+
+                    tr 
+                        td  nombre de fin 
+                        td 
+                            input#in(type="number", name="nbre2"  min=1 max=1000 step=1)
+
+                    tr 
+                        td(colspan='2', align='left')
+                            input#submit(type="submit", value="Tester la série")
